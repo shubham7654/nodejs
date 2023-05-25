@@ -1,15 +1,9 @@
-const imageLoaded = false;
+console.log("first log");
 
-const displayImage = (isImageLoaded, imageLoadStatus) => {
-  isImageLoaded(imageLoadStatus);
-}
+console.log("second log");
 
-const isImageLoadedCallback = (imageStatus) => {
-  if (imageStatus) {
-    console.log("Image loaded");
-  } else {
-    console.log("Image load failed");
-  }
-}
+console.log("third log");
 
-displayImage(isImageLoadedCallback, imageLoaded);
+console.log("forth log");
+
+console.log("fifth log");
